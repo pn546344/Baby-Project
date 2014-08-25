@@ -4,5 +4,6 @@
     <string name="app_name">BabyGame</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_nursery__people">Nursery_People</string>
 
 </resources>
