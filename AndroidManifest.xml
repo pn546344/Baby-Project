@@ -47,6 +47,10 @@
             android:name=".Nursery_People"
             android:label="@string/title_activity_nursery__people" >
         </activity>
+        <activity
+            android:name=".Leavel"
+            android:label="@string/title_activity_leavel" >
+        </activity>
     </application>
 
 </manifest>

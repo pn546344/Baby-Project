@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -40,6 +41,8 @@ public class CreateBaby extends Activity implements OnClickListener {
 				fos.write(name.getBytes());
 				fos.write('\n');
 				fos.close();
+				Intent intent = new Intent(this,Leavel.class);
+	            startActivity(intent);
 				finish();
 			} catch (Exception e) {
 				// TODO: handle exception
